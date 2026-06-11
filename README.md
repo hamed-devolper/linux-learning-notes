@@ -1,5 +1,23 @@
 Linux Admin Lab
 
+Project Goal
+
+This repository documents my practical Linux administration learning journey using Ubuntu in a virtual machine.
+
+The goal is to build hands-on Linux skills through real exercises and administration tasks rather than only studying theory.
+
+MVP (Minimum Viable Project)
+
+Build and document a Linux administration lab covering:
+
+* Terminal Basics
+* Navigation
+* File Management
+* Search and Filtering
+* User and Group Management
+* Process Management
+* Task Automation
+
 Overview
 
 This repository documents my hands-on Linux administration learning journey using Ubuntu in a virtual machine.
