@@ -1,37 +1,44 @@
-# Terminal Basics
+Terminal Basics
 
-## Befehle
+Objective
 
-### ls
+Learn the most important terminal commands used to navigate and inspect a Linux system.
 
-Zeigt Dateien und Ordner im aktuellen Verzeichnis an.
+Commands
 
-Beispiele:
+ls
+
+Lists files and directories in the current location.
+
+Examples:
 
 ls
 ls -la
 
-### pwd
+pwd
 
-Zeigt den aktuellen Pfad an.
+Displays the current working directory.
 
-Beispiel:
+Example:
 
 pwd
 
-## Platzhalter (Wildcards)
+Wildcards
+
+Useful for matching files and directories based on patterns.
+
+Examples:
 
 t*
--> zeigt Dateien an, die mit t beginnen
-
 ?
--> ersetzt genau ein Zeichen
-
 [abc]
--> erlaubt eines der angegebenen Zeichen
 
-## Was ich gelernt habe
+What I Learned
 
-- ls wird ständig verwendet
-- Wildcards erleichtern die Suche
-- pwd zeigt den aktuellen Standort im Dateisystem
+* ls is one of the most frequently used Linux commands.
+* Wildcards make searching and filtering easier.
+* pwd helps identify the current location in the filesystem.
+
+Lab Example
+
+During the Linux lab I used ls and pwd repeatedly while navigating directories and verifying my current working location.
