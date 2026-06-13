@@ -4,7 +4,7 @@ Project Goal
 
 This repository documents my practical Linux administration learning journey using Ubuntu in a virtual machine.
 
-The goal is to build hands-on Linux skills through real exercises and administration tasks rather than only studying theory.
+The project focuses on building hands-on Linux skills through real exercises, administration tasks, and small automation projects.
 
 MVP (Minimum Viable Project)
 
@@ -13,16 +13,11 @@ Build and document a Linux administration lab covering:
 * Terminal Basics
 * Navigation
 * File Management
+* Working with Files
 * Search and Filtering
 * User and Group Management
 * Process Management
 * Task Automation
-
-Overview
-
-This repository documents my hands-on Linux administration learning journey using Ubuntu in a virtual machine.
-
-The goal of this project is to build practical Linux skills through real exercises and lab environments rather than only studying theory.
 
 Environment
 
@@ -55,9 +50,11 @@ Topics Covered
 
 04 - Working with Files
 
+* grep
+* find
+* du
 * chmod
 * executable files
-* disk usage
 
 05 - Search and Filter
 
@@ -67,18 +64,47 @@ Topics Covered
 * locate
 * pipes
 
-Upcoming Topics
+06 - User and Group Management
 
-* User and Group Management
-* Process Management
-* Task Automation with Cron
+* whoami
+* id
+* adduser
+* addgroup
+* user group membership
 
-Learning Goal
+07 - Process Management
 
-Build a practical Linux administration foundation that can be used later for:
+* ps
+* ps aux
+* top
+* grep
+* kill
 
-* LPIC-1
-* Docker
-* DevOps
-* AWS Cloud
-* System Administration
+08 - Task Automation
+
+* crontab
+* cron jobs
+* task scheduling
+
+Mini Project
+
+09 - System Information Report
+
+A Bash script that automatically collects important Linux system information and generates a report containing:
+
+* Current user
+* Hostname
+* Date and time
+* Kernel version
+* Disk usage
+* Memory usage
+
+Skills Demonstrated
+
+* Linux Command Line
+* File and Directory Management
+* User Administration
+* Process Monitoring
+* Task Automation
+* Bash Scripting
+* Git and GitHub Workflow
